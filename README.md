@@ -30,5 +30,5 @@ Compilação do código em C++ (linha de comando)
 
 > ### Exemplo Windows
 >```powershell
->C:/Program Files/Epic Games/UE_5.8/Engine/Build/BatchFiles/Win64/Build.sh cai_nao_caiEditor Windows Development -Project="$HOME/Documents/Unreal Projects/cai_nao_cai/cai_nao_cai.uproject" -Progress
+>& "%programfiles%\Epic Games\UE_5.8\Engine\Build\BatchFiles\Build.bat" cai_nao_caiEditor Win64 Development -Project="%userprofile%\Documents\Unreal Projects\cai_nao_cai\cai_nao_cai.uproject" -Progress
 >```
